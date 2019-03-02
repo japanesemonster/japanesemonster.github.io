@@ -1,5 +1,3 @@
-var setupimg = document.getElementById("picture");
-setupimg.addEventListener("click", myEventHandler);
-
-function myEventHandler(){
-	setupimg.setAttribute
+$(document).ready(function(){
+// all jQuery methods go here...
+});

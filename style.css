@@ -1,11 +1,9 @@
-img {
-  display: block;
-  margin-right: auto;
-  width: 50%;
+body{
+	background-image: url("japan.jpg");
+	font-family:'Futura';
+	color:#000000;
 }
 
-h1 {
-
-	text-align:center;
-	color:red ;
+h3{	
+background-image: url("overlay.jpeg");
 }
