@@ -1,9 +1,43 @@
 body{
-	background-image: url("japan.jpg");
+	
+	background-image: url("cherry-blossom.jpg");
 	font-family:'Futura';
-	color:#000000;
+	text-align:center;
+	background-blend-mode:lighten;
+	
 }
 
+
 h3{	
+
 background-image: url("overlay.jpeg");
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #09f9e5;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
